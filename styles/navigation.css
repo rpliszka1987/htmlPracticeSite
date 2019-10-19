@@ -33,3 +33,23 @@
     font-size: 0.8em;
     text-transform: uppercase;
 }
+
+/* Center Navigation Column */
+
+.nav-wrapper>.center-column {
+    display: grid;
+    grid-template-columns: 1fr;
+
+
+}
+
+.nav-wrapper>.center-column>.logo img {
+    width: 216px;
+    height: auto;
+}
+
+.nav-wrapper>.center-column>.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
