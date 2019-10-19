@@ -1,0 +1,35 @@
+/* Navigation Styles */
+
+.nav-wrapper {
+    background-color: #11122b;
+    color: #fff;
+    height: 190px;
+    padding: 60px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Left Navigation Column */
+
+.nav-wrapper>.left-column {
+    display: flex;
+    align-items: center;
+}
+
+.nav-wrapper>.left-column>.phone-icon i {
+    padding-right: 15px;
+    font-size: 2em;
+}
+
+.nav-wrapper>.left-column>.phone-hours-area {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 4px;
+}
+
+.nav-wrapper>.left-column>.phone-hours-area>.hours {
+    color: #cbcbcb;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
