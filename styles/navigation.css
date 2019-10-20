@@ -78,3 +78,38 @@
     letter-spacing: 3px;
 
 }
+
+/* Right Navigation Column */
+
+.nav-wrapper>.right-column {
+    display: flex;
+    align-items: center;
+}
+
+.nav-wrapper>.right-column>.map-icon i {
+    padding-left: 15px;
+    font-size: 2em;
+}
+
+.nav-wrapper>.right-column>.map-icon a {
+    color: #fff;
+    transition: 0.5s;
+}
+
+.nav-wrapper>.right-column>.map-icon a:hover {
+    color: #cea135;
+}
+
+.nav-wrapper>.right-column>.address-area {
+    text-align: right;
+}
+
+.nav-wrapper>.right-column>.address-area a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.nav-wrapper>.right-column>.address-area a:hover {
+    color: #cea135;
+}
