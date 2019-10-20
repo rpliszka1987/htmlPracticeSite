@@ -39,8 +39,8 @@
 .nav-wrapper>.center-column {
     display: grid;
     grid-template-columns: 1fr;
-
-
+    grid-gap: 42px;
+    width: 500px;
 }
 
 .nav-wrapper>.center-column>.logo img {
@@ -52,4 +52,29 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* Navigation Links */
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links>.link {
+    width: 100px;
+    text-align: center;
+}
+
+.nav-links>.link a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.nav-links>.link a:hover {
+    color: #cea135;
+    letter-spacing: 3px;
+
 }
