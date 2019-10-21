@@ -2,81 +2,82 @@
 
 /* Hero Wrapper Par */
 .hero-wrapper {
-    height: 300px;
-    background-image: url(../images/backgrounds/fries-hero-bg.jpg);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    padding: 100px;
+  height: 300px;
+  background-image: url(../images/backgrounds/fries-hero-bg.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 100px;
 }
 
-.hero-wrapper>.top-header {
-    background-color: #11122b;
-    color: #cea135;
-    width: 350px;
-    text-align: center;
-    padding: 5px 20px;
-    border-radius: 5px;
+.hero-wrapper > .top-header {
+  background-color: #11122b;
+  color: #cea135;
+  width: 350px;
+  text-align: center;
+  padding: 5px 20px;
+  border-radius: 5px;
 }
 
-.hero-wrapper>.bottom-header {
-    background-color: #cea135;
-    color: #11122b;
-    width: 150px;
-    text-align: center;
-    padding: 5px 15px;
-    border-radius: 5px;
-    margin-top: 15px;
+.hero-wrapper > .bottom-header {
+  background-color: #cea135;
+  color: #11122b;
+  width: 150px;
+  text-align: center;
+  padding: 5px 15px;
+  border-radius: 5px;
+  margin-top: 15px;
 }
 
 /* Features Area */
 
 .features-area {
-    height: 350px;
-    background-image: url(../images/backgrounds/fries-multiply-bg.jpg);
-    background-color: #cea135;
-    border-top: 15px solid #fff;
-    display: flex;
-    justify-content: center;
-    color: #11122b;
+  height: 350px;
+  background-image: url(../images/backgrounds/fries-multiply-bg.jpg);
+  background-color: #cea135;
+  border-top: 15px solid #fff;
+  display: flex;
+  justify-content: center;
+  color: #11122b;
+  box-shadow: inset 0px -26px 79px -8px rgba(0, 0, 0, 0.58);
 }
 
-.features-area>.columns-area {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 1200px;
+.features-area > .columns-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1200px;
 }
 
-.features-area>.columns-area>.column {
-    text-align: center;
-    margin: 40px;
-    padding: 20px;
-    transition: 1s;
-    border-bottom: 5px solid transparent;
-    border-radius: 10px;
+.features-area > .columns-area > .column {
+  text-align: center;
+  margin: 40px;
+  padding: 20px;
+  transition: 1s;
+  border-bottom: 5px solid transparent;
+  border-radius: 10px;
 }
 
-.features-area>.columns-area>.column:hover {
-    border-bottom: 5px solid #11122b;
+.features-area > .columns-area > .column:hover {
+  border-bottom: 5px solid #11122b;
 }
 
-.features-area>.columns-area>.column :nth-child(1) {
-    font-size: 3em;
+.features-area > .columns-area > .column :nth-child(1) {
+  font-size: 3em;
 }
 
-.features-area>.columns-area>.column :nth-child(2) {
-    font-size: 1.5em;
-    font-weight: 900;
-    height: 50px;
-    transition: 1s;
+.features-area > .columns-area > .column :nth-child(2) {
+  font-size: 1.5em;
+  font-weight: 900;
+  height: 50px;
+  transition: 1s;
 }
 
-.features-area>.columns-area>.column :nth-child(2):hover {
-    letter-spacing: 1px;
+.features-area > .columns-area > .column :nth-child(2):hover {
+  letter-spacing: 1px;
 }
 
-.features-area>.columns-area>.column :nth-child(3) {
-    letter-spacing: 2px;
+.features-area > .columns-area > .column :nth-child(3) {
+  letter-spacing: 2px;
 }
