@@ -1,0 +1,64 @@
+/* Footer styling */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+    background-color: #11122b;
+    color: #fff;
+    margin-top: -4px;
+    padding-top: 10px;
+}
+
+.footer>.footer-logo img {
+    width: 190px;
+    height: auto;
+    filter: brightness(50%);
+}
+
+.footer>.phone-hours-area span {
+    margin-left: 10px;
+    margin-right: 10px;
+    letter-spacing: 2px;
+    font-size: 1em;
+
+}
+
+.footer>.phone-hours-area>.hours {
+    text-transform: uppercase;
+    font-size: 0.8em;
+    color: #cea135;
+}
+
+.footer>.nav-links {
+    width: 400px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+.footer>.social-media-icons-area {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+}
+
+.footer>.social-media-icons-area a {
+    color: #fff;
+    transition: 0.5s;
+    font-size: 1.5em;
+}
+
+.footer>.social-media-icons-area a:hover {
+    color: #cea135;
+
+}
+
+.footer>.copyright-area {
+    font-size: 0.7em;
+    margin-bottom: 20px;
+}
