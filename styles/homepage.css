@@ -1,7 +1,6 @@
-/* Home Page Styles */
+/* Hero area parallox */
 
-/* Hero Wrapper Par */
-.hero-wrapper {
+.hero-area {
   height: 300px;
   background-image: url(../images/backgrounds/fries-hero-bg.jpg);
   background-attachment: fixed;
@@ -11,73 +10,71 @@
   padding: 100px;
 }
 
-.hero-wrapper > .top-header {
+.hero-area>.top-header {
   background-color: #11122b;
-  color: #cea135;
+  color: #fff;
   width: 350px;
   text-align: center;
-  padding: 5px 20px;
-  border-radius: 5px;
+  padding: 1px 20px;
+  border-radius: 2px;
 }
 
-.hero-wrapper > .bottom-header {
+.hero-area>.bottom-header {
   background-color: #cea135;
   color: #11122b;
-  width: 150px;
+  width: 135px;
   text-align: center;
-  padding: 5px 15px;
-  border-radius: 5px;
-  margin-top: 15px;
+  padding: 1px 20px;
+  margin-top: 20px;
+  border-radius: 2px;
 }
 
-/* Features Area */
-
+/* Features area  */
 .features-area {
-  height: 350px;
+  height: 400px;
   background-image: url(../images/backgrounds/fries-multiply-bg.jpg);
-  background-color: #cea135;
-  border-top: 15px solid #fff;
+  border-top: solid #fff 10px;
   display: flex;
   justify-content: center;
+  align-items: center;
   color: #11122b;
   box-shadow: inset 0px -26px 79px -8px rgba(0, 0, 0, 0.58);
 }
 
-.features-area > .columns-area {
+.features-area>.column-wrapper {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   width: 1200px;
 }
 
-.features-area > .columns-area > .column {
-  text-align: center;
-  margin: 40px;
+.features-area>.column-wrapper>.column {
   padding: 20px;
-  transition: 1s;
+  margin: 42px;
+  text-align: center;
   border-bottom: 5px solid transparent;
   border-radius: 10px;
+  transition: 1s;
 }
 
-.features-area > .columns-area > .column:hover {
-  border-bottom: 5px solid #11122b;
+.features-area>.column-wrapper>.column:hover {
+  border-bottom: solid 5px #11122b;
 }
 
-.features-area > .columns-area > .column :nth-child(1) {
+.features-area>.column-wrapper>.column :nth-child(1) {
   font-size: 3em;
 }
 
-.features-area > .columns-area > .column :nth-child(2) {
+.features-area>.column-wrapper>.column :nth-child(2) {
   font-size: 1.5em;
   font-weight: 900;
   height: 50px;
   transition: 1s;
 }
 
-.features-area > .columns-area > .column :nth-child(2):hover {
+.features-area>.column-wrapper>.column :nth-child(2):hover {
   letter-spacing: 1px;
 }
 
-.features-area > .columns-area > .column :nth-child(3) {
+.features-area>.column-wrapper>.column :nth-child(3) {
   letter-spacing: 2px;
 }

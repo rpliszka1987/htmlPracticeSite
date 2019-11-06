@@ -1,64 +1,61 @@
-/* Footer styling */
-
+/* Footer Styling */
 .footer {
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
-    height: 500px;
+    align-items: center;
+    height: 400px;
     background-color: #11122b;
-    color: #fff;
     margin-top: -4px;
     padding-top: 10px;
+    color: #cbcbcb;
 }
 
 .footer>.footer-logo img {
-    width: 190px;
-    height: auto;
+    width: 180px;
+    height: 100%;
     filter: brightness(50%);
 }
 
-.footer>.phone-hours-area span {
+.footer>.footer-phone-hours span {
     margin-left: 10px;
     margin-right: 10px;
-    letter-spacing: 2px;
     font-size: 1em;
-
+    letter-spacing: 2px;
 }
 
-.footer>.phone-hours-area>.hours {
-    text-transform: uppercase;
-    font-size: 0.8em;
+.footer>.footer-phone-hours>.hours {
     color: #cea135;
+    font-size: 0.8em;
+    text-transform: uppercase;
 }
 
 .footer>.nav-links {
-    width: 400px;
     margin-top: 40px;
     margin-bottom: 40px;
-
+    width: 400px;
 }
 
-.footer>.social-media-icons-area {
+.footer>.social-media-icons-wrapper {
     margin-top: 40px;
     margin-bottom: 40px;
+    width: 300px;
     display: flex;
     justify-content: space-around;
-    width: 300px;
 }
 
-.footer>.social-media-icons-area a {
-    color: #fff;
-    transition: 0.5s;
+.footer>.social-media-icons-wrapper a {
     font-size: 1.5em;
+    color: #cbcbcb;
+    transition: 0.5s;
 }
 
-.footer>.social-media-icons-area a:hover {
+.footer>.social-media-icons-wrapper a:hover {
     color: #cea135;
-
 }
 
-.footer>.copyright-area {
+.footer>.copy-right {
+    color: #858585;
     font-size: 0.7em;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
